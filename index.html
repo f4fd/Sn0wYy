@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sn0wY</title>
+    <script>
+        function loadFrame (elm){//from w  ww. j  av  a  2  s  . com
+            var frame1 = document.getElementById('frame1');
+            frame1.src = elm.dataset.src;
+        }
+        
+    </script> 
+</head>
+<div class="whole">
+<body>
+    
+    <h1 class="title" align="center">Sn0wY</h1>
+    <img class="logo" src="Screen Shot 2023-12-03 at 8.08.53 PM.png" alt=" ">
+    <p class="desc">Sn0wY is an under-development proxy for almost any blocked site. </p>
+   <div >
+    <div class="buttonoptions">
+    <button id="b1" data-src="https://www.addictinggames.com/" onclick="loadFrame(this)" class="br">Games</button> 
+
+    
+   </div>
+   <p class="more">MORE SOON</p>
+    <iframe class="iframe" id="frame1" scrolling="yes" ></iframe> 
+    
+</body>
+</div>
+<style>
+    
+    
+
+    .title{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 900;
+        font-style: italic;
+        color: rgb(83, 93, 124);
+        font-size: 65px;
+
+    }
+    body{
+        background-color: rgb(23, 23, 84);
+    }
+
+    .desc{
+        text-align: center;
+        color: rgb(9, 0, 35);
+        font-weight: 400;
+        font-style: normal;
+        font-size: x-large;
+        font-family: monospace;
+    }
+
+    .submitbutton {
+        border-radius: 50%;
+        border-image-width: 0%;
+        width: 100px;
+        height: 100px;
+    }
+
+    iframe{
+       y
+        margin-top: 100px;
+        position: absolute;
+        width: 55%;
+        height: 60%;
+        padding: 1px ;
+        align-content: center;
+    }
+
+   
+
+    .buttonoptions{
+        align-items: center;
+        align-content: center;
+        margin-left: 46.0%;
+        
+    }
+
+    .iframe{
+        margin-left: 21.5%;
+    }
+        
+    .more{
+        color: rgb(74, 58, 121);
+        font-family: monospace;
+        font-size: x-large;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 46.5%;
+    }
+
+    .br{
+        color: rgb(83, 93, 124);
+        background-color: rgb(23, 23, 84);
+        border: none;
+        border-radius: 50px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        transition: 0.2s;
+    }
+
+    button:hover{
+        background-color: rgb(74, 58, 121);
+        color: antiquewhite;
+        font-size: medium;
+    }
+
+    .logo{
+        height: 80px;
+       margin-left: 46.5%;
+       margin-right: 46.5%;
+    }
+
+    
+</style>
+</html>
